@@ -1,27 +1,7 @@
 ---
 name: new-project-scheduler
 description: >
-  New Project Automation Scheduler — connects your calendar, active projects, and NPAO task
-  queues to build a real, time-aware daily and weekly work plan. Reads your connected calendar
-  to find available slots, pulls NPAO task queues from all active projects, and schedules each
-  task into your actual day — modularized to fit real time blocks, sequenced by N→A→P→O
-  priority, and tracked against project milestones. ALWAYS use when anyone says: "plan my
-  day", "schedule my tasks", "what should I work on today", "fit this into my week", "when
-  can I build X", "project timeline", "milestone planning", "when will this be done", "block
-  time for this project", "organize my week around my projects", "daily build plan", "what's
-  the NPAO priority for today", "fit the JTBD tasks into my calendar", "I have X hours — what
-  do I build", "sprint plan", "work schedule", or any request to connect active project tasks
-  to real calendar time. Also triggers when a project is approved for build and needs to be
-  scheduled into the work week.
-version: "1.1"
-author: {{USER_NAME}} — {{COMPANY_NAME}} GTM AI
-framework: ROSTR — PAL + NPAO + 4Ds + JTBD + Calendar Integration
-rostr_paper: https://rostr-paper.vercel.app
-rostr_sections:
-  NPAO: https://rostr-paper.vercel.app/#s6
-  PAL: https://rostr-paper.vercel.app/#s4
-  4Ds: https://rostr-paper.vercel.app/#s6-7
-  Glossary: https://rostr-paper.vercel.app/#appendix-a
+  New Project Automation Scheduler — connects your calendar, active projects, and NPAO task queues to build a real, time-aware daily and weekly work plan. Reads your connected calendar to find available slots, pulls NPAO task queues from all active projects, and schedules each task into your actual day — modularized to fit real time blocks, sequenced by N→A→P→O priority, and tracked against project milestones. ALWAYS use when anyone says: "plan my day", "schedule my tasks", "what should I work on today", "fit this into my week", "when can I build X", "project timeline", "milestone planning", "when will this be done", "block time for this project", "organize my week around my projects", "daily build plan", "what's the NPAO priority for today", "fit the JTBD tasks into my calendar", "I have X hours — what do I build", "sprint plan", "work schedule", or any request to connect active project tasks to real calendar time. Also triggers when a project is approved for build and needs to be ...
 ---
 
 # New Project Automation — Scheduler Skill
@@ -37,7 +17,7 @@ It doesn't suggest tasks. It schedules them — into the specific open windows o
 All scheduling logic in this skill is governed by the **ROSTR Framework**. The canonical source:
 
 > **ROSTR Research Paper:** https://rostr-paper.vercel.app
-> *{{USER_NAME}} — GTM AI & Automation Manager, {{COMPANY_NAME}}*
+> *{{USER_NAME}} — GTM AI & Automation Manager, Enterprise Platform*
 
 When any framework term or behavior is unclear, fetch the live paper. Do not guess at definitions.
 
@@ -427,7 +407,7 @@ O — OPPORTUNITY: Fills remaining capacity only.
 
 ---
 
-## {{COMPANY_NAME}} GTM Auto-Context
+## Enterprise Platform GTM Auto-Context
 
 - Patrick's work hours: assumed standard Chicago business hours unless calendar says otherwise
 - Projects are GTM automations — most P-class tasks are builds (Clay, n8n, HubSpot, Amplemarket)
